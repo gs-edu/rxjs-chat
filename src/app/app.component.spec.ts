@@ -16,11 +16,11 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'rxjs-chat'`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('rxjs-chat');
-  });
+  // it(`should have as title 'rxjs-chat'`, () => {
+  //   const fixture = TestBed.createComponent(AppComponent);
+  //   const app = fixture.componentInstance;
+  //   expect(app.title).toEqual('rxjs-chat');
+  // });
 
   // it('should render title', () => {
   //   const fixture = TestBed.createComponent(AppComponent);

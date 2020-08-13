@@ -6,7 +6,7 @@ import { User } from './user.model';
 @Injectable({
   providedIn: 'root'
 })
-export class UserService {
+export class UsersService {
 
   currentUser: Subject<User> = new BehaviorSubject<User>(null);
 
